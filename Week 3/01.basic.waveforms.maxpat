@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 100.0, 1444.0, 759.0 ],
+        "rect": [ 34.0, 100.0, 1305.0, 759.0 ],
         "boxes": [
             {
                 "box": {
@@ -215,7 +215,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 48.00000071525574, 816.8000121712685, 105.60000157356262, 22.0 ],
-                    "text": "1 0 0."
+                    "text": "3 2 0."
                 }
             },
             {
@@ -344,7 +344,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 2150.0, 163.2357485294342, 38.0, 22.0 ],
+                    "patching_rect": [ 2150.0, 161.55462098121643, 38.0, 22.0 ],
                     "text": "pink~"
                 }
             },
@@ -354,7 +354,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 2043.0771179199219, 342.91209626197815, 112.4999989271164, 20.0 ],
+                    "patching_rect": [ 2026.6103895187377, 343.55462098121643, 112.4999989271164, 20.0 ],
                     "text": "<spectrascope~>"
                 }
             },
@@ -364,7 +364,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 2043.0771179199219, 210.60439133644104, 76.78571355342865, 20.0 ],
+                    "patching_rect": [ 2026.6103895187377, 211.55462098121643, 76.78571355342865, 20.0 ],
                     "text": "<scope~>"
                 }
             },
@@ -375,7 +375,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1801.5386333465576, 367.5274832248688, 313.0, 112.0 ]
+                    "patching_rect": [ 1784.6103895187377, 368.55462098121643, 313.0, 112.0 ]
                 }
             },
             {
@@ -384,7 +384,7 @@
                     "maxclass": "scope~",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "patching_rect": [ 1801.5386333465576, 232.14285492897034, 313.0, 102.0 ]
+                    "patching_rect": [ 1784.6103895187377, 232.55462098121643, 313.0, 102.0 ]
                 }
             },
             {
@@ -396,7 +396,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 1746.1540126800537, 161.3736174106598, 44.0, 22.0 ],
+                    "patching_rect": [ 1729.6103895187377, 161.55462098121643, 44.0, 22.0 ],
                     "text": "noise~"
                 }
             },
@@ -408,7 +408,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 1569.1176171302795, 108.613445520401, 82.0, 22.0 ],
+                    "patching_rect": [ 1462.2207790374755, 108.613445520401, 82.0, 22.0 ],
                     "text": "receive~ sync"
                 }
             },
@@ -420,7 +420,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1436.764678478241, 108.613445520401, 68.0, 22.0 ],
+                    "patching_rect": [ 1385.7207790374755, 108.613445520401, 68.0, 22.0 ],
                     "text": "r duty.cycle"
                 }
             },
@@ -432,7 +432,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1305.8823280334473, 108.613445520401, 37.0, 22.0 ],
+                    "patching_rect": [ 1309.2207790374755, 108.613445520401, 37.0, 22.0 ],
                     "text": "r freq"
                 }
             },
@@ -442,7 +442,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1602.9411458969116, 342.4369704723358, 112.4999989271164, 20.0 ],
+                    "patching_rect": [ 1603.0, 342.4369704723358, 102.0, 20.0 ],
                     "text": "<spectrascope~>"
                 }
             },
@@ -484,7 +484,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 1305.8823280334473, 161.55462098121643, 62.0, 22.0 ],
+                    "patching_rect": [ 1309.2207790374755, 161.55462098121643, 172.0, 22.0 ],
                     "text": "rect~ 440."
                 }
             },
@@ -560,7 +560,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 898.5293946266174, 161.30592465400696, 150.295156955719, 22.0 ],
+                    "patching_rect": [ 888.8311685562134, 161.65105366706848, 150.295156955719, 22.0 ],
                     "text": "saw~ 440."
                 }
             },
@@ -572,7 +572,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 725.0, 107.55269455909729, 82.0, 22.0 ],
+                    "patching_rect": [ 731.4415580749512, 107.55269455909729, 82.0, 22.0 ],
                     "text": "receive~ sync"
                 }
             },
@@ -584,7 +584,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 593.5, 107.55269455909729, 68.0, 22.0 ],
+                    "patching_rect": [ 599.9415580749512, 107.55269455909729, 68.0, 22.0 ],
                     "text": "r duty.cycle"
                 }
             },
@@ -607,7 +607,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 462.2950687408447, 107.55269455909729, 37.0, 22.0 ],
+                    "patching_rect": [ 468.44155807495116, 107.55269455909729, 37.0, 22.0 ],
                     "text": "r freq"
                 }
             },
@@ -659,7 +659,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 462.0, 161.65105366706848, 282.0, 22.0 ],
+                    "patching_rect": [ 468.44155807495116, 161.65105366706848, 282.0, 22.0 ],
                     "text": "tri~ 440."
                 }
             },
@@ -671,7 +671,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 49.10714238882065, 107.55269455909729, 37.0, 22.0 ],
+                    "patching_rect": [ 48.051947593688965, 107.55269455909729, 37.0, 22.0 ],
                     "text": "r freq"
                 }
             },
@@ -745,7 +745,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 49.10714238882065, 162.49999845027924, 70.0, 22.0 ],
+                    "patching_rect": [ 48.051947593688965, 161.65105366706848, 70.0, 22.0 ],
                     "text": "cycle~ 440."
                 }
             }
