@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 74.0, 100.0, 1000.0, 685.0 ],
+        "rect": [ 103.0, 100.0, 170.0, 213.0 ],
         "boxes": [
             {
                 "box": {
@@ -48,7 +48,19 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 201.0, 171.0, 1000.0, 685.0 ],
+                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-3",
+                                    "linecount": 2,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 0.0, 179.0, 150.0, 33.0 ],
+                                    "text": "option + click on an object to bring up its help file"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-4",
