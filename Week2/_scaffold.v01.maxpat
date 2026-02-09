@@ -13,6 +13,26 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 17.0, 174.0, 117.0, 22.0 ],
+                    "text": "lg.random.notes.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 17.0, 136.0, 79.0, 22.0 ],
+                    "text": "lg.midi.in.v01"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-1",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -47,8 +67,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 201.0, 171.0, 1000.0, 685.0 ],
-                        "visible": 1,
+                        "rect": [ 383.0, 125.0, 1000.0, 685.0 ],
                         "boxes": [
                             {
                                 "box": {
