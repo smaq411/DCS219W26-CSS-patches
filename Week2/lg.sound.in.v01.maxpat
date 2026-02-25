@@ -9,8 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 95.0, 103.0, 1000.0, 685.0 ],
+        "rect": [ 831.0, 454.0, 647.0, 308.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 573.9130325317383, 32.6086950302124, 35.0, 22.0 ],
+                    "text": "clear"
+                }
+            },
             {
                 "box": {
                     "id": "obj-32",
@@ -24,7 +35,7 @@
             {
                 "box": {
                     "id": "obj-30",
-                    "items": [ "none", ",", "SDC", ",", "soundfile", ",", "noise", ",", "click", ",", "sine" ],
+                    "items": [ "off", ",", "microphone", ",", "playlist", ",", "noise", ",", "click", ",", "sine" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -70,14 +81,32 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1200.0000178813934, 155.20000231266022, 76.99115663766861, 20.0 ],
+                    "patching_rect": [ 619.5652055740356, 178.26086616516113, 76.99115663766861, 20.0 ],
                     "text": "<playlist~>"
                 }
             },
             {
                 "box": {
+                    "clipheight": 45.0,
                     "data": {
-                        "clips": []
+                        "clips": [
+                            {
+                                "absolutepath": "/Users/saram/Desktop/DCS219/synth-tech-media-master/speech/273177__xserra__la-vaca-cega-eva.wav",
+                                "filename": "273177__xserra__la-vaca-cega-eva.wav",
+                                "filekind": "audiofile",
+                                "id": "u130001810",
+                                "loop": 0,
+                                "content_state": {                                }
+                            },
+                            {
+                                "absolutepath": "/Users/saram/Desktop/DCS219/synth-tech-media-master/sung/RB.vox.sung.consonants.ki.Db4.wav",
+                                "filename": "RB.vox.sung.consonants.ki.Db4.wav",
+                                "filekind": "audiofile",
+                                "id": "u841001824",
+                                "loop": 0,
+                                "content_state": {                                }
+                            }
+                        ]
                     },
                     "id": "obj-20",
                     "maxclass": "playlist~",
@@ -86,7 +115,7 @@
                     "numoutlets": 5,
                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 1154.4000172019005, 51.20000076293945, 150.0, 92.0 ],
+                    "patching_rect": [ 573.9130325317383, 73.91304206848145, 150.0, 92.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 417.69914865493774, 258.40710043907166, 150.0, 92.0 ],
                     "quality": "basic",
@@ -122,7 +151,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 1059.4667179107666, 204.60000306367874, 40.0, 22.0 ],
+                    "patching_rect": [ 1297.8260622024536, 186.95651817321777, 40.0, 22.0 ],
                     "text": "*~ 0.2"
                 }
             },
@@ -133,7 +162,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 1059.4667179107666, 154.20000231266022, 66.0, 22.0 ],
+                    "patching_rect": [ 1297.8260622024536, 136.9565191268921, 66.0, 22.0 ],
                     "text": "cycle~ 200"
                 }
             },
@@ -143,7 +172,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 861.6000128388405, 115.20000171661377, 68.80000102519989, 20.0 ],
+                    "patching_rect": [ 1104.3478050231934, 99.99999809265137, 68.80000102519989, 20.0 ],
                     "text": "<t> toggle"
                 }
             },
@@ -155,7 +184,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 815.7111505508423, 113.20000171661377, 24.0, 24.0 ]
+                    "patching_rect": [ 1058.695631980896, 97.8260850906372, 24.0, 24.0 ]
                 }
             },
             {
@@ -164,7 +193,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 897.6000133752823, 160.80000239610672, 78.40000116825104, 20.0 ],
+                    "patching_rect": [ 1141.304326057434, 145.65217113494873, 78.40000116825104, 20.0 ],
                     "text": "metronome"
                 }
             },
@@ -175,7 +204,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 815.7111505508423, 204.60000306367874, 39.0, 22.0 ],
+                    "patching_rect": [ 1058.695631980896, 191.3043441772461, 39.0, 22.0 ],
                     "text": "click~"
                 }
             },
@@ -186,7 +215,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 571.955583190918, 200.5000028014183, 44.80000066757202, 22.0 ],
+                    "patching_rect": [ 815.2173757553101, 167.39130115509033, 44.80000066757202, 22.0 ],
                     "text": "*~ 0.2"
                 }
             },
@@ -197,7 +226,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 815.7111505508423, 159.80000239610672, 63.0, 22.0 ],
+                    "patching_rect": [ 1058.695631980896, 145.65217113494873, 63.0, 22.0 ],
                     "text": "metro 500"
                 }
             },
@@ -207,7 +236,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 644.8000096082687, 162.0, 128.00000190734863, 20.0 ],
+                    "patching_rect": [ 889.1304178237915, 128.26086711883545, 128.00000190734863, 20.0 ],
                     "text": "white noise generator"
                 }
             },
@@ -218,7 +247,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 571.955583190918, 161.0, 48.800000727176666, 22.0 ],
+                    "patching_rect": [ 815.2173757553101, 128.26086711883545, 48.800000727176666, 22.0 ],
                     "text": "noise~"
                 }
             },
@@ -288,7 +317,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-23", 3 ],
+                    "destination": [ "obj-23", 4 ],
                     "source": [ "obj-10", 0 ]
                 }
             },
@@ -306,13 +335,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-23", 4 ],
+                    "destination": [ "obj-23", 5 ],
                     "source": [ "obj-19", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-23", 5 ],
+                    "destination": [ "obj-23", 2 ],
                     "source": [ "obj-20", 0 ]
                 }
             },
@@ -358,17 +387,22 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-20", 0 ],
+                    "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-8", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-23", 2 ],
+                    "destination": [ "obj-23", 3 ],
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ],
-        "autosave": 0
+        ]
     }
 }
