@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 831.0, 454.0, 647.0, 308.0 ],
+        "rect": [ 303.0, 258.0, 1109.0, 525.0 ],
         "boxes": [
             {
                 "box": {
@@ -87,22 +87,31 @@
             },
             {
                 "box": {
-                    "clipheight": 45.0,
+                    "clipheight": 29.666666666666668,
                     "data": {
                         "clips": [
                             {
-                                "absolutepath": "/Users/saram/Desktop/DCS219/synth-tech-media-master/speech/273177__xserra__la-vaca-cega-eva.wav",
-                                "filename": "273177__xserra__la-vaca-cega-eva.wav",
+                                "absolutepath": "/Users/saram/Desktop/DCS219/DCS219W26-CSS-patches/my sounds/water-flowing-through-distant-rapids-1.wav",
+                                "filename": "water-flowing-through-distant-rapids-1.wav",
                                 "filekind": "audiofile",
-                                "id": "u130001810",
+                                "id": "u166003915",
                                 "loop": 0,
                                 "content_state": {                                }
                             },
                             {
-                                "absolutepath": "/Users/saram/Desktop/DCS219/synth-tech-media-master/sung/RB.vox.sung.consonants.ki.Db4.wav",
-                                "filename": "RB.vox.sung.consonants.ki.Db4.wav",
+                                "absolutepath": "/Users/saram/Desktop/DCS219/DCS219W26-CSS-patches/my sounds/male-chanting-and-bell-tolling-in-temple-in-japan.wav",
+                                "filename": "male-chanting-and-bell-tolling-in-temple-in-japan.wav",
                                 "filekind": "audiofile",
-                                "id": "u841001824",
+                                "id": "u812003899",
+                                "loop": 0,
+                                "content_state": {                                }
+                            },
+                            {
+                                "absolutepath": "/Users/saram/Desktop/DCS219/DCS219W26-CSS-patches/my sounds/traditional-japanese-koto-suiryo-bushi-song-of-speculation.mp3",
+                                "filename": "traditional-japanese-koto-suiryo-bushi-song-of-speculation.mp3",
+                                "filekind": "audiofile",
+                                "id": "u122004865",
+                                "selection": [ 0.40625, 0.40625 ],
                                 "loop": 0,
                                 "content_state": {                                }
                             }
@@ -403,6 +412,7 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ]
+        ],
+        "autosave": 0
     }
 }
