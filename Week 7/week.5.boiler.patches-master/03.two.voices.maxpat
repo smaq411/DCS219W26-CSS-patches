@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 92.0, 106.0, 915.0, 646.0 ],
+        "rect": [ 275.0, 124.0, 915.0, 646.0 ],
         "boxes": [
             {
                 "box": {
