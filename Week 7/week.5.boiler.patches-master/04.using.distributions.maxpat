@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ -286.0, 116.0, 915.0, 646.0 ],
+        "rect": [ 728.0, 329.0, 1163.0, 747.0 ],
         "boxes": [
             {
                 "box": {
@@ -18,7 +18,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 584.8167724013329, 401.0471330881119, 96.0, 22.0 ],
+                    "patching_rect": [ 556.1798197031021, 468.53936326503754, 96.0, 22.0 ],
                     "text": "loadmess set 40"
                 }
             },
@@ -30,7 +30,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 563.3508031368256, 438.21990913152695, 50.0, 22.0 ]
+                    "patching_rect": [ 556.1798197031021, 506.7416135072708, 50.0, 22.0 ]
                 }
             },
             {
@@ -40,19 +40,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 374.34556156396866, 401.0, 96.0, 22.0 ],
+                    "patching_rect": [ 386.516884803772, 420.22475266456604, 96.0, 22.0 ],
                     "text": "loadmess set 40"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-17",
-                    "linecount": 13,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 23.0, 696.0, 216.0, 181.0 ],
-                    "text": "TO DO THIS WEEKEND \n\n1. make a new version of this patch with a few tweaks:\n\n2. use your own values for pitch reservoirs (scales), your own values for durations, your own weights\n\n3. make this 3 voices instead of 3\n\n4. use your generated music to drive a poly~ instead of simple midi playback"
                 }
             },
             {
@@ -62,7 +51,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 570.8333115577698, 495.8333144187927, 150.0, 33.0 ],
+                    "patching_rect": [ 570.7865624427795, 548.3146505355835, 150.0, 33.0 ],
                     "text": "paste replace:\noption + command + v"
                 }
             },
@@ -87,7 +76,7 @@
                     "numvoices": 2,
                     "out": "nnnnnnn",
                     "outlettype": [ "", "", "", "", "", "", "", "bang" ],
-                    "patching_rect": [ 263.0434804558754, 612.4999766349792, 526.0, 160.0 ],
+                    "patching_rect": [ 262.9213693141937, 665.1685924530029, 526.0, 160.0 ],
                     "pitcheditrange": [ "null" ],
                     "stafflines": [ 5, 5 ],
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -105,7 +94,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 697.614909027304, 784.3749700784683, 40.0, 22.0 ],
+                    "patching_rect": [ 697.7528647184372, 837.0787185430527, 40.0, 22.0 ],
                     "text": "s play"
                 }
             },
@@ -115,7 +104,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 96.5857117227145, 402.0, 86.00000256299973, 20.0 ],
+                    "patching_rect": [ 96.629221200943, 455.0562161207199, 86.00000256299973, 20.0 ],
                     "text": "<= generate!"
                 }
             },
@@ -127,7 +116,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 69.5857117227145, 400.0, 24.0, 24.0 ]
+                    "patching_rect": [ 69.66292691230774, 452.8090249300003, 24.0, 24.0 ]
                 }
             },
             {
@@ -137,7 +126,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 263.0434804558754, 542.0289900302887, 189.9565195441246, 22.0 ],
+                    "patching_rect": [ 262.9213693141937, 594.3820699453354, 189.9565195441246, 22.0 ],
                     "saved_object_attributes": {
                         "versionnumber": 80300
                     },
@@ -151,7 +140,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 263.0434804558754, 579.1666445732117, 117.0, 22.0 ],
+                    "patching_rect": [ 262.9213693141937, 632.5843201875687, 117.0, 22.0 ],
                     "text": "cage.combinevoices"
                 }
             },
@@ -162,7 +151,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 106.70545023679733, 636.6197266578674, 150.0, 33.0 ],
+                    "patching_rect": [ 106.74158155918121, 689.8876955509186, 150.0, 33.0 ],
                     "text": "<bach.roll @numvoices 2 @clefs g g>"
                 }
             },
@@ -952,18 +941,8 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 434.0, 485.0, 142.0, 22.0 ],
+                    "patching_rect": [ 433.70789980888367, 538.2022901773453, 142.0, 22.0 ],
                     "text": "p sm.make-a-melody.v02"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-29",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 320.0, 439.21990913152695, 28.0, 20.0 ],
-                    "text": "<i>"
                 }
             },
             {
@@ -974,7 +953,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 353.0769567489624, 438.21990913152695, 50.0, 22.0 ]
+                    "patching_rect": [ 386.516884803772, 459.5505985021591, 50.0, 22.0 ]
                 }
             },
             {
@@ -1763,7 +1742,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 263.0, 485.0, 142.0, 22.0 ],
+                    "patching_rect": [ 262.9213693141937, 538.2022901773453, 142.0, 22.0 ],
                     "text": "p sm.make-a-melody.v02"
                 }
             },
@@ -1838,7 +1817,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 262.8714285714285, 367.5, 54.0, 22.0 ],
+                    "patching_rect": [ 262.9213693141937, 420.22475266456604, 54.0, 22.0 ],
                     "saved_object_attributes": {
                         "versionnumber": 80100
                     },
@@ -1874,7 +1853,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 471.44285714285706, 367.5, 40.0, 22.0 ],
+                    "patching_rect": [ 471.44285714285706, 371.91014206409454, 40.0, 22.0 ],
                     "text": "s play"
                 }
             },
@@ -2157,6 +2136,7 @@
             },
             {
                 "patchline": {
+                    "color": [ 0.0, 0.9768045545, 0.0, 1.0 ],
                     "destination": [ "obj-31", 0 ],
                     "order": 0,
                     "source": [ "obj-26", 0 ]
@@ -2164,6 +2144,7 @@
             },
             {
                 "patchline": {
+                    "color": [ 0.0, 0.9768045545, 0.0, 1.0 ],
                     "destination": [ "obj-6", 0 ],
                     "order": 1,
                     "source": [ "obj-26", 0 ]
@@ -2221,6 +2202,7 @@
             },
             {
                 "patchline": {
+                    "color": [ 1.0, 0.1491314173, 0.0, 1.0 ],
                     "destination": [ "obj-30", 0 ],
                     "order": 0,
                     "source": [ "obj-39", 0 ]

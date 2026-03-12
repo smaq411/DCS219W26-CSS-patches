@@ -9,8 +9,62 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 92.0, 106.0, 915.0, 646.0 ],
+        "rect": [ 471.0, 100.0, 915.0, 646.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-38",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 158.90409803390503, 791.4000117778778, 234.58902403712273, 20.0 ],
+                    "text": "convert midicents to MIDI note number =>"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-34",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 407.9006233130183, 790.4000117778778, 35.0, 22.0 ],
+                    "text": "/ 100"
+                }
+            },
+            {
+                "box": {
+                    "color": [ 0.09019607843137255, 1.0, 0.0, 1.0 ],
+                    "id": "obj-33",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 407.9006233130183, 820.8000122308731, 43.0, 22.0 ],
+                    "text": "s pitch"
+                }
+            },
+            {
+                "box": {
+                    "color": [ 0.960784, 0.827451, 0.156863, 1.0 ],
+                    "id": "obj-32",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 480.3291947415897, 790.4000117778778, 35.0, 22.0 ],
+                    "text": "s dur"
+                }
+            },
+            {
+                "box": {
+                    "color": [ 0.0, 0.9098039215686274, 1.0, 1.0 ],
+                    "id": "obj-17",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 552.7577661701612, 790.4000117778778, 58.0, 22.0 ],
+                    "text": "s velocity"
+                }
+            },
             {
                 "box": {
                     "id": "obj-28",
@@ -42,17 +96,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 374.34556156396866, 401.0, 96.0, 22.0 ],
                     "text": "loadmess set 40"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-17",
-                    "linecount": 13,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 23.0, 696.0, 216.0, 181.0 ],
-                    "text": "TO DO THIS WEEKEND \n\n1. make a new version of this patch with a few tweaks:\n\n2. use your own values for pitch reservoirs (scales), your own values for durations, your own weights\n\n3. make this 3 voices instead of 3\n\n4. use your generated music to drive a poly~ instead of simple midi playback"
                 }
             },
             {
@@ -2157,6 +2200,7 @@
             },
             {
                 "patchline": {
+                    "color": [ 0.0, 0.9768045545, 0.0, 1.0 ],
                     "destination": [ "obj-31", 0 ],
                     "order": 0,
                     "source": [ "obj-26", 0 ]
@@ -2164,6 +2208,7 @@
             },
             {
                 "patchline": {
+                    "color": [ 0.0, 0.9768045545, 0.0, 1.0 ],
                     "destination": [ "obj-6", 0 ],
                     "order": 1,
                     "source": [ "obj-26", 0 ]
@@ -2201,6 +2246,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-33", 0 ],
+                    "source": [ "obj-34", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-44", 0 ],
                     "source": [ "obj-36", 0 ]
                 }
@@ -2221,6 +2272,7 @@
             },
             {
                 "patchline": {
+                    "color": [ 1.0, 0.1491314173, 0.0, 1.0 ],
                     "destination": [ "obj-30", 0 ],
                     "order": 0,
                     "source": [ "obj-39", 0 ]
@@ -2230,6 +2282,24 @@
                 "patchline": {
                     "destination": [ "obj-7", 1 ],
                     "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "source": [ "obj-44", 4 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-32", 0 ],
+                    "source": [ "obj-44", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-34", 0 ],
+                    "source": [ "obj-44", 2 ]
                 }
             },
             {
