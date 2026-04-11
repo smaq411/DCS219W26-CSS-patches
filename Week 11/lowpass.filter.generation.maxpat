@@ -40,7 +40,7 @@
                     "numinlets": 3,
                     "numoutlets": 2,
                     "outlettype": [ "", "int" ],
-                    "patching_rect": [ 1528.4159656592778, 685.0, 105.0, 22.0 ],
+                    "patching_rect": [ 1528.4159656592778, 671.2120620012283, 105.0, 22.0 ],
                     "text": "bach.ezmidiplay 8"
                 }
             },
@@ -86,7 +86,7 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-65",
-                    "loop": [ 0, 1000 ],
+                    "loop": [ 0.0, 1000.0 ],
                     "maxclass": "bach.roll",
                     "numinlets": 6,
                     "numoutlets": 8,
@@ -302,7 +302,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 519.5, 571.0, 84.0, 33.0 ],
-                    "presentation_linecount": 2,
                     "text": "AUTOSCALE\nDURATIONS"
                 }
             },
@@ -545,7 +544,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 67.0, 267.0, 120.0, 74.0 ],
+                    "patching_rect": [ -70.14925122261047, 267.164169549942, 120.0, 74.0 ],
                     "text": "range: 0. 1.\nunit style: float\ninitial enable: check\ninitial value: 0.5\nshort name: z"
                 }
             },
@@ -1023,14 +1022,6 @@
         ],
         "parameters": {
             "obj-16": [ "live.dial", "z", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
