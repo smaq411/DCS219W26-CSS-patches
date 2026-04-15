@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 117.0, 123.0, 831.0, 519.0 ],
+        "rect": [ 746.0, 130.0, 831.0, 519.0 ],
         "boxes": [
             {
                 "box": {
@@ -173,7 +173,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 773.5536761283875, 806.3376541137695, 99.0, 76.0 ],
-                    "presentation_linecount": 4,
                     "text": ";\rmodulator 1000.;\rcarrier 500.;\rmod.depth 0.25;\r"
                 }
             },
@@ -892,7 +891,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 48.45360553264618, 132.62411624193192, 150.0, 74.0 ],
+                    "patching_rect": [ 43.0, 168.0, 150.0, 74.0 ],
                     "text": "Ring Modulation (RM): modulate the amplitude of one ocilator by multiplying it against another oscillator"
                 }
             },
